@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="home" class="landing">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+               
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="text-section">
+            <h1>Hello i'm Solomon</h1>
+            <h3>A Software Developer</h3>
+        </div>
+        <div class="social-media">
+            <a href="https://twitter.com/ndimuuu_" target="_blank"><img src="assets/x-twitter.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/Solomon Ndimu" target="_blank"><img src="assets/linkedin.svg" alt=""></a>
+            <a href="https://github.com/sololemons"target="_blank"><img src="assets/github.svg" alt=""></a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content-left">
+            <div class="about-title">
+                <h1>About Me</h1>
+            </div>
+            <p>
+                I am a computer science student at Dedan Kimathi University Of Technology with a passion for developing user-friendly software.
+                I major Especially In backend Specialisd In Java
+                I am proficient in a variety of programming languages and technologies, including Python, Java  and SQL.
+                <br>I am also skilled in  software developing and I strive Towards Being A senior Software Developer.
+                In my spare time, I enjoy working on personal projects, such as developing mobile apps and games.
+                I am excited to learn and grow as a computer scientist, and I am eager to contribute to the field in a meaningful way.
+                
+            </p>
+        </div>
+        <div class="content-right">
+            <button id="skills">Skills</button>
+            <button id="education">Education</button>
+            <div id="prog-body">
+                <div class="progress">
+                    <div class="prog-title">Html</div>
+                    <div class="box">
+                        <div class="prog-bar"></div>
+                        <div class="prog-dark-1"></div>
+                    </div>
+                    <div class="prog-lable">75%</div>
+                </div>
+                <div class="progress">
+                    <div class="prog-title">Css</div>
+                    <div class="box">
+                        <div class="prog-bar"></div>
+                        <div class="prog-dark-2"></div>
+                    </div>
+                    <div class="prog-lable">80%</div>
+                </div>
+                <div class="progress">
+                    <div class="prog-title">Js&nbsp&nbsp</div>
+                    <div class="box">
+                        <div class="prog-bar"></div>
+                        <div class="prog-dark-3"></div>
+                    </div>
+                    <div class="prog-lable">50%</div>
+                </div>
+            </div>
+            <div id="edu" style="visibility: hidden;">
+                <div class="edu-body">
+                    <div class="year">
+                        <div class="dot"></div>
+                        <h1>2018-2021</h1>
+                    </div>
+                    <br>
+                    <h3><span>High School</span>: Attended Baricho Highschool</h3>
+                    <div class="year-1">
+                        <div class="dot"></div>
+                        <h1>2021-Present</h1>
+                    </div>
+                    <br>
+                    <h3><span>University</span>: Attended Dekut University</h3>
+                </div>
+            </div>
+            </div>
+            
+    </section>
+
+    
+  
+
+    <section class="contact" id="contact">
+        <div class="contact-box">
+            <form>
+                <h3>GET IN TOUCH</h3>
+                <input type="text" id="name" placeholder="Your Name", required>
+                <input type="email" id="email" placeholder="Email Address", required>
+                <input type="text" id="phone" placeholder="Phone Number", required>
+                <textarea id="message" rows="4" placeholder="How can I help you?"></textarea>
+                <button id="submit" type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
